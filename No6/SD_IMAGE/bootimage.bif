@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]FSBL.elf
+	Zybo_wrapper.bit
+	u-boot.elf
+}
