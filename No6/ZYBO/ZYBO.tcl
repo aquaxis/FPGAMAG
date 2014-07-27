@@ -29,7 +29,8 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 
 # If you do not already have a project created,
 # you can create a project using the following command:
-#    create_project project_1 myproj -part xc7z010clg400-1
+#    create_project project_1 myproj -part xc7z020clg484-1
+#    set_property BOARD_PART em.avnet.com:zed:part0:1.0 [current_project]
 
 
 # CHANGE DESIGN NAME HERE
@@ -156,7 +157,7 @@ proc create_root_design { parentCell } {
 
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.4 processing_system7_0 ]
-  set_property -dict [ list CONFIG.PCW_IMPORT_BOARD_PRESET {/home/hidemi/DJPEG_IP/ZYBO_zynq_def.xml} CONFIG.PCW_USE_S_AXI_ACP {1}  ] $processing_system7_0
+  set_property -dict [ list CONFIG.PCW_IMPORT_BOARD_PRESET {ZYBO_zynq_def.xml} CONFIG.PCW_USE_S_AXI_ACP {1}  ] $processing_system7_0
 
   # Create interface connections
   connect_bd_intf_net -intf_net S00_AXI_1 [get_bd_intf_pins axi_interconnect_0/S00_AXI] [get_bd_intf_pins processing_system7_0/M_AXI_GP0]
@@ -173,8 +174,8 @@ proc create_root_design { parentCell } {
   connect_bd_net -net aq_axi_djpeg_0_WRITE [get_bd_pins aq_axi_djpeg_0/WRITE] [get_bd_pins aq_fifo6432_0/RD_IN_WE]
   connect_bd_net -net aq_axi_fifo_0_FIFO_RD_DO [get_bd_pins aq_axi_fifo_0/FIFO_RD_DO] [get_bd_pins aq_fifo6432_0/WR_IN_DATA]
   connect_bd_net -net aq_axi_fifo_0_FIFO_RD_EMPTY [get_bd_pins aq_axi_fifo_0/FIFO_RD_EMPTY] [get_bd_pins aq_fifo6432_0/WR_IN_EMPTY]
-  connect_bd_net -net aq_axi_fifo_0_FIFO_WR_FULL [get_bd_pins aq_axi_fifo_0/FIFO_WR_FULL] [get_bd_pins aq_fifo6432_0/RD_OUT_FULL]
   connect_bd_net -net aq_axi_fifo_0_FIFO_RST [get_bd_pins aq_axi_fifo_0/FIFO_RST] [get_bd_pins aq_fifo6432_0/RST]
+  connect_bd_net -net aq_axi_fifo_0_FIFO_WR_FULL [get_bd_pins aq_axi_fifo_0/FIFO_WR_FULL] [get_bd_pins aq_fifo6432_0/RD_OUT_FULL]
   connect_bd_net -net aq_fifo6432_0_RD_IN_FULL [get_bd_pins aq_axi_djpeg_0/FULL] [get_bd_pins aq_fifo6432_0/RD_IN_FULL]
   connect_bd_net -net aq_fifo6432_0_RD_OUT_DATA [get_bd_pins aq_axi_fifo_0/FIFO_WR_DI] [get_bd_pins aq_fifo6432_0/RD_OUT_DATA]
   connect_bd_net -net aq_fifo6432_0_RD_OUT_WE [get_bd_pins aq_axi_fifo_0/FIFO_WR_EN] [get_bd_pins aq_fifo6432_0/RD_OUT_WE]
