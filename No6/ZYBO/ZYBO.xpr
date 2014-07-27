@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Product Version: Vivado v2014.2 (64-bit)              -->
-<!--                                                         -->
-<!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
-
 <Project Version="7" Minor="1" Path="/home/hidemi/temp/FPGAMAG/No6/ZYBO/ZYBO.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
