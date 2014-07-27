@@ -1,6 +1,6 @@
 
 ################################################################
-# This is a generated script based on design: DJPEG_ZYBO
+# This is a generated script based on design: ZYBO
 #
 # Though there are limitations about the generated script,
 # the main purpose of this utility is to make learning
@@ -25,7 +25,7 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 ################################################################
 
 # To test this script, run the following commands from Vivado Tcl console:
-# source DJPEG_ZYBO_script.tcl
+# source ZYBO_script.tcl
 
 # If you do not already have a project created,
 # you can create a project using the following command:
@@ -33,7 +33,7 @@ if { [string first $scripts_vivado_version $current_vivado_version] == -1 } {
 
 
 # CHANGE DESIGN NAME HERE
-set design_name DJPEG_ZYBO
+set design_name ZYBO
 
 # If you do not already have an existing IP Integrator design open,
 # you can create a design using the following command:
@@ -171,12 +171,12 @@ proc create_root_design { parentCell } {
   connect_bd_net -net aq_axi_djpeg_0_DATA_OUT [get_bd_pins aq_axi_djpeg_0/DATA_OUT] [get_bd_pins aq_fifo6432_0/RD_IN_DI]
   connect_bd_net -net aq_axi_djpeg_0_READ [get_bd_pins aq_axi_djpeg_0/READ] [get_bd_pins aq_fifo6432_0/WR_OUT_RE]
   connect_bd_net -net aq_axi_djpeg_0_WRITE [get_bd_pins aq_axi_djpeg_0/WRITE] [get_bd_pins aq_fifo6432_0/RD_IN_WE]
-  connect_bd_net -net aq_axi_fifo_0_FIFO_DOUT [get_bd_pins aq_axi_fifo_0/FIFO_DOUT] [get_bd_pins aq_fifo6432_0/WR_IN_DATA]
-  connect_bd_net -net aq_axi_fifo_0_FIFO_EMPTY [get_bd_pins aq_axi_fifo_0/FIFO_EMPTY] [get_bd_pins aq_fifo6432_0/WR_IN_EMPTY]
-  connect_bd_net -net aq_axi_fifo_0_FIFO_FULL [get_bd_pins aq_axi_fifo_0/FIFO_FULL] [get_bd_pins aq_fifo6432_0/RD_OUT_FULL]
+  connect_bd_net -net aq_axi_fifo_0_FIFO_RD_DO [get_bd_pins aq_axi_fifo_0/FIFO_RD_DO] [get_bd_pins aq_fifo6432_0/WR_IN_DATA]
+  connect_bd_net -net aq_axi_fifo_0_FIFO_RD_EMPTY [get_bd_pins aq_axi_fifo_0/FIFO_RD_EMPTY] [get_bd_pins aq_fifo6432_0/WR_IN_EMPTY]
+  connect_bd_net -net aq_axi_fifo_0_FIFO_WR_FULL [get_bd_pins aq_axi_fifo_0/FIFO_WR_FULL] [get_bd_pins aq_fifo6432_0/RD_OUT_FULL]
   connect_bd_net -net aq_axi_fifo_0_FIFO_RST [get_bd_pins aq_axi_fifo_0/FIFO_RST] [get_bd_pins aq_fifo6432_0/RST]
   connect_bd_net -net aq_fifo6432_0_RD_IN_FULL [get_bd_pins aq_axi_djpeg_0/FULL] [get_bd_pins aq_fifo6432_0/RD_IN_FULL]
-  connect_bd_net -net aq_fifo6432_0_RD_OUT_DATA [get_bd_pins aq_axi_fifo_0/FIFO_DIN] [get_bd_pins aq_fifo6432_0/RD_OUT_DATA]
+  connect_bd_net -net aq_fifo6432_0_RD_OUT_DATA [get_bd_pins aq_axi_fifo_0/FIFO_WR_DI] [get_bd_pins aq_fifo6432_0/RD_OUT_DATA]
   connect_bd_net -net aq_fifo6432_0_RD_OUT_WE [get_bd_pins aq_axi_fifo_0/FIFO_WR_EN] [get_bd_pins aq_fifo6432_0/RD_OUT_WE]
   connect_bd_net -net aq_fifo6432_0_WR_IN_RE [get_bd_pins aq_axi_fifo_0/FIFO_RD_EN] [get_bd_pins aq_fifo6432_0/WR_IN_RE]
   connect_bd_net -net aq_fifo6432_0_WR_OUT_DO [get_bd_pins aq_axi_djpeg_0/DATA_IN] [get_bd_pins aq_fifo6432_0/WR_OUT_DO]
