@@ -202,7 +202,7 @@ proc create_root_design { parentCell } {
 
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]
-  set_property -dict [ list CONFIG.PCW_EN_CLK1_PORT {0} CONFIG.PCW_EN_CLK3_PORT {0} CONFIG.PCW_EN_RST1_PORT {0} CONFIG.PCW_FCLK1_PERIPHERAL_CLKSRC {IO PLL} CONFIG.PCW_FCLK3_PERIPHERAL_CLKSRC {IO PLL} CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100} CONFIG.PCW_FPGA1_PERIPHERAL_FREQMHZ {100} CONFIG.PCW_FPGA3_PERIPHERAL_FREQMHZ {50} CONFIG.PCW_IMPORT_BOARD_PRESET {/home/hidemi/workspace/Zybo/ZYBO_zynq_def.xml} CONFIG.PCW_USE_S_AXI_HP0 {1}  ] $processing_system7_0
+  set_property -dict [ list CONFIG.PCW_EN_CLK1_PORT {0} CONFIG.PCW_EN_CLK3_PORT {0} CONFIG.PCW_EN_RST1_PORT {0} CONFIG.PCW_FCLK1_PERIPHERAL_CLKSRC {IO PLL} CONFIG.PCW_FCLK3_PERIPHERAL_CLKSRC {IO PLL} CONFIG.PCW_FPGA0_PERIPHERAL_FREQMHZ {100} CONFIG.PCW_FPGA1_PERIPHERAL_FREQMHZ {100} CONFIG.PCW_FPGA3_PERIPHERAL_FREQMHZ {50} CONFIG.PCW_IMPORT_BOARD_PRESET {ZYBO_zynq_def.xml} CONFIG.PCW_USE_S_AXI_HP0 {1}  ] $processing_system7_0
 
   # Create interface connections
   connect_bd_intf_net -intf_net aq_axi_fifo_0_M_AXI [get_bd_intf_pins aq_axi_fifo_0/M_AXI] [get_bd_intf_pins axi_interconnect_1/S00_AXI]
