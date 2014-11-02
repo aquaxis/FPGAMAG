@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]FSBL.elf
+	Zybo_wrapper.bit
+	[load = 0x04000000, startup = 0x04000000]u-boot.bin
+}
