@@ -189,9 +189,7 @@ proc create_root_design { parentCell } {
 
   # Create address segments
   create_bd_addr_seg -range 0x20000000 -offset 0x0 [get_bd_addr_spaces aq_axi_fifo_0/M_AXI] [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_DDR_LOWOCM] SEG_processing_system7_0_ACP_DDR_LOWOCM
-  create_bd_addr_seg -range 0x400000 -offset 0xE0000000 [get_bd_addr_spaces aq_axi_fifo_0/M_AXI] [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_IOP] SEG_processing_system7_0_ACP_IOP
-  create_bd_addr_seg -range 0x40000000 -offset 0x40000000 [get_bd_addr_spaces aq_axi_fifo_0/M_AXI] [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0] SEG_processing_system7_0_ACP_M_AXI_GP0
-  create_bd_addr_seg -range 0x1000000 -offset 0xFC000000 [get_bd_addr_spaces aq_axi_fifo_0/M_AXI] [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_QSPI_LINEAR] SEG_processing_system7_0_ACP_QSPI_LINEAR
+  create_bd_addr_seg -range 0x40000000 -offset 0x40000000 [get_bd_addr_spaces aq_axi_fifo_0/M_AXI] [get_bd_addr_segs processing_system7_0/S_AXI_ACP/ACP_IOP] SEG_processing_system7_0_ACP_IOP
   create_bd_addr_seg -range 0x10000 -offset 0x40000000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs aq_axi_djpeg_0/S_AXI/reg0] SEG_aq_axi_djpeg_0_reg0
   create_bd_addr_seg -range 0x10000 -offset 0x40010000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs aq_axi_fifo_0/S_AXI/reg0] SEG_aq_axi_fifo_0_reg0
   
