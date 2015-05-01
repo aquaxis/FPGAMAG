@@ -45,7 +45,7 @@ void main(int argc, char** argv){
 
   double st,et;
 
-  // 引数の取り込み
+  // ファイル名
   {
     int m;
 
