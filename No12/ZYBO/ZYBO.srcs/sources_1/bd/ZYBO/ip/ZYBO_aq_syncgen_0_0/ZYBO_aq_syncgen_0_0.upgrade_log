@@ -1,0 +1,205 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Sat Jan 30 23:08:38 2016
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Sat Jan 30 22:38:30 2016
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Mon Jan  4 00:26:27 2016
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0 (Rev. 11)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Mon Jan  4 00:21:23 2016
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Mon Jan  4 00:16:48 2016
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Sun Jan  3 22:13:17 2016
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Wed Dec 30 02:57:05 2015
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Wed Dec 30 02:38:11 2015
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Wed Dec 30 02:23:36 2015
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 2) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Sat Dec  5 23:16:07 2015
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_syncgen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ZYBO_aq_syncgen_0_0 (user.org:user:aq_syncgen:1.0) from (Rev. 1) to (Rev. 2)
+

@@ -1,0 +1,49 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.5  2015-06-26 bk=1.3371 VDI=38 GEI=35 GUI=JA:1.8
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 50 -defaultsOSRD
+preplace port VSYNC -pg 1 -y 470 -defaultsOSRD
+preplace port HSYNC -pg 1 -y 450 -defaultsOSRD
+preplace port CLK_LOCKED -pg 1 -y 550 -defaultsOSRD
+preplace port LED -pg 1 -y 590 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 70 -defaultsOSRD
+preplace port TGL_SW -pg 1 -y 570 -defaultsOSRD
+preplace portBus DOUT_G -pg 1 -y 410 -defaultsOSRD
+preplace portBus TMDS -pg 1 -y 510 -defaultsOSRD
+preplace portBus TMDSB -pg 1 -y 530 -defaultsOSRD
+preplace portBus DOUT_B -pg 1 -y 390 -defaultsOSRD
+preplace portBus DOUT_R -pg 1 -y 430 -defaultsOSRD
+preplace inst VGA -pg 1 -lvl 2 -y 460 -defaultsOSRD
+preplace inst ARM -pg 1 -lvl 2 -y 120 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -y 130 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 1 -y 440 -defaultsOSRD
+preplace inst GPIO -pg 1 -lvl 2 -y 662 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 2 1 NJ
+preplace netloc axi_interconnect_1_M01_AXI 1 1 1 370
+preplace netloc processing_system7_0_M_AXI_GP0 1 0 3 20 -20 NJ -20 830
+preplace netloc VGA_locked 1 2 1 860
+preplace netloc VGA_TMDSB 1 2 1 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 40 270 NJ 270 830
+preplace netloc aq_vga_0_DOUT_B 1 2 1 NJ
+preplace netloc aq_vga_0_HSYNC 1 2 1 NJ
+preplace netloc axi_interconnect_1_M02_AXI 1 1 1 360
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 0 3 10 -30 NJ -30 840
+preplace netloc aq_vga_0_VSYNC 1 2 1 NJ
+preplace netloc aq_vga_0_DOUT_R 1 2 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 NJ
+preplace netloc aq_axi_dma_0_M_AXI 1 0 3 30 260 NJ 260 810
+preplace netloc VGA_TMDS 1 2 1 NJ
+preplace netloc axi_gpio_0_GPIO 1 2 1 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 1 1 390
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 2 410 280 820
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 3 50 600 400 740 840
+preplace netloc axi_gpio_0_ip2intc_irpt 1 1 2 400 320 800
+preplace netloc aq_vga_0_DOUT_G 1 2 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 40 610 380 750 850
+preplace netloc axi_gpio_1_GPIO 1 2 1 NJ
+preplace netloc axi_interconnect_1_M00_AXI 1 1 1 N
+preplace netloc M00_ACLK_1 1 0 3 50 250 NJ 250 810
+levelinfo -pg 1 -10 210 650 900 -top -40 -bot 780
+",
+}
+0
