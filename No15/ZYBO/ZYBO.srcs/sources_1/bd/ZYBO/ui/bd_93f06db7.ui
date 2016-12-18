@@ -1,0 +1,32 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port CALC_SEL -pg 1 -y 40 -defaultsOSRD
+preplace port RAM_SEL -pg 1 -y 200 -defaultsOSRD
+preplace port clka -pg 1 -y 60 -defaultsOSRD
+preplace portBus RST_N -pg 1 -y 220 -defaultsOSRD
+preplace portBus GRAD_DIN -pg 1 -y 160 -defaultsOSRD
+preplace portBus addra -pg 1 -y 20 -defaultsOSRD
+preplace portBus addrb -pg 1 -y 270 -defaultsOSRD
+preplace portBus doutb -pg 1 -y 370 -defaultsOSRD
+preplace portBus GRAD_SEL -pg 1 -y 180 -defaultsOSRD
+preplace portBus wea -pg 1 -y 290 -defaultsOSRD
+preplace inst Const_5 -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst HOG_CreateCell_5 -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace inst PreHOG_5 -pg 1 -lvl 3 -y 230 -defaultsOSRD
+preplace netloc HOG_Timing_0_RT4_ADDR 1 0 3 NJ 20 NJ 20 450J
+preplace netloc CLK_1 1 0 3 NJ 60 170 300 450
+preplace netloc HOG_CreateCell_5_DOUT 1 2 1 440
+preplace netloc PreHOG5_douta 1 1 2 200 270 440J
+preplace netloc PreHOG5_doutb 1 2 2 450 370 NJ
+preplace netloc util_vector_logic_0_Res 1 0 2 NJ 220 NJ
+preplace netloc ReTiming4_0_SEL 1 0 2 NJ 200 NJ
+preplace netloc RamGrad_doutb 1 0 2 NJ 180 190J
+preplace netloc xlconstant_7_dout 1 1 1 160J
+preplace netloc HOG_Timing_0_RT4_VALID 1 0 3 NJ 290 NJ 290 460J
+preplace netloc HOG_Timing_0_RT5_ADDR5 1 0 3 20J 280 NJ 280 NJ
+preplace netloc RamMag_doutb 1 0 2 NJ 160 180J
+preplace netloc ReTiming3_0_VALID 1 0 2 NJ 40 190J
+levelinfo -pg 1 0 90 320 560 680 -top 0 -bot 390
+",
+}

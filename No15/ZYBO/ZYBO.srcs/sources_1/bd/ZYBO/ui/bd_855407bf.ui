@@ -1,0 +1,38 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port RST_N -pg 1 -y 30 -defaultsOSRD
+preplace port clkb -pg 1 -y 220 -defaultsOSRD
+preplace portBus wea1 -pg 1 -y 260 -defaultsOSRD
+preplace portBus wea2 -pg 1 -y 820 -defaultsOSRD
+preplace portBus doutb0 -pg 1 -y 60 -defaultsOSRD
+preplace portBus doutb1 -pg 1 -y 80 -defaultsOSRD
+preplace portBus dina -pg 1 -y 240 -defaultsOSRD
+preplace portBus doutb2 -pg 1 -y 100 -defaultsOSRD
+preplace portBus addra -pg 1 -y 200 -defaultsOSRD
+preplace portBus addrb -pg 1 -y 560 -defaultsOSRD
+preplace portBus SEL -pg 1 -y 70 -defaultsOSRD
+preplace portBus wea -pg 1 -y 540 -defaultsOSRD
+preplace inst DataSel4_0 -pg 1 -lvl 2 -y 80 -defaultsOSRD
+preplace inst CamRAM0 -pg 1 -lvl 1 -y 280 -defaultsOSRD
+preplace inst CamRAM1 -pg 1 -lvl 1 -y 560 -defaultsOSRD
+preplace inst CamRAM2 -pg 1 -lvl 1 -y 840 -defaultsOSRD
+preplace netloc HOG_Timing_0_CAM_DOUT 1 0 1 20
+preplace netloc HOG_Timing_0_CAM_BANK1_WE 1 0 1 10J
+preplace netloc SEL_1 1 0 2 NJ 70 NJ
+preplace netloc RST_N_1 1 0 2 NJ 30 NJ
+preplace netloc HOG_Timing_0_CAM_BANK0_WE 1 0 1 0J
+preplace netloc CLK_1 1 0 2 30 50 NJ
+preplace netloc CamRAM2_doutb 1 0 2 70 130 NJ
+preplace netloc HOG_Timing_0_CAM_ADRS 1 0 1 40
+preplace netloc CamRAM0_doutb 1 0 2 50 90 NJ
+preplace netloc DataSel4_0_DOUT0 1 2 1 NJ
+preplace netloc DataSel4_0_DOUT1 1 2 1 NJ
+preplace netloc DataSel4_0_DOUT2 1 2 1 NJ
+preplace netloc CamRAM1_doutb 1 0 2 60 110 NJ
+preplace netloc HOG_Timing_0_CAM_BANK2_WE 1 0 1 10J
+preplace netloc HOG_Timing_0_RT1_ADRS 1 0 1 0
+levelinfo -pg 1 -20 170 380 500 -top -10 -bot 980
+",
+}
+0

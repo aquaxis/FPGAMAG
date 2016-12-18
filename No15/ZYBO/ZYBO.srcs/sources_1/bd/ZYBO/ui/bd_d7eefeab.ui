@@ -1,0 +1,60 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port RST_N -pg 1 -y 40 -defaultsOSRD
+preplace port CLK -pg 1 -y 60 -defaultsOSRD
+preplace portBus DATA_IN1 -pg 1 -y 120 -defaultsOSRD
+preplace portBus COMP_DATA -pg 1 -y 450 -defaultsOSRD
+preplace portBus DATA_IN2 -pg 1 -y 140 -defaultsOSRD
+preplace portBus DATA_IN3 -pg 1 -y 160 -defaultsOSRD
+preplace portBus DATA_IN4 -pg 1 -y 180 -defaultsOSRD
+preplace portBus DATA_IN5 -pg 1 -y 200 -defaultsOSRD
+preplace portBus DATA_IN6 -pg 1 -y 220 -defaultsOSRD
+preplace portBus DATA_IN7 -pg 1 -y 240 -defaultsOSRD
+preplace portBus DATA -pg 1 -y 270 -defaultsOSRD
+preplace portBus DATA_IN8 -pg 1 -y 260 -defaultsOSRD
+preplace portBus SEL -pg 1 -y 80 -defaultsOSRD
+preplace portBus DATA_IN0 -pg 1 -y 100 -defaultsOSRD
+preplace inst DelaySel1_0 -pg 1 -lvl 1 -y 150 -defaultsOSRD
+preplace inst CalcSumMag_0 -pg 1 -lvl 2 -y 140 -defaultsOSRD
+preplace inst CalcFDiv_0 -pg 1 -lvl 3 -y 350 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 6 -y 400 -defaultsOSRD
+preplace inst DelayData2_0 -pg 1 -lvl 4 -y 270 -defaultsOSRD
+preplace inst CalcComp_0 -pg 1 -lvl 4 -y 440 -defaultsOSRD
+preplace inst BitCreate_0 -pg 1 -lvl 5 -y 260 -defaultsOSRD
+preplace inst DelayData1_0 -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace netloc DelaySel1_0_DATA_O7 1 1 1 N
+preplace netloc SEL_1 1 0 6 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 1460
+preplace netloc DATA_IN4_1 1 0 1 NJ
+preplace netloc DelaySel1_0_DATA_O8 1 1 1 N
+preplace netloc CLK_1 1 0 6 20 -30 480 290 780 270 1000 340 1240 340 1430
+preplace netloc RST_N_1 1 0 5 30 -20 500 -20 NJ -20 980 200 NJ
+preplace netloc DelaySel1_0_SEL_O 1 1 3 NJ -30 NJ -30 NJ
+preplace netloc DATA_IN3_1 1 0 1 NJ
+preplace netloc DelayData1_0_DATA_OUT 1 2 1 N
+preplace netloc DATA_IN2_1 1 0 1 NJ
+preplace netloc DATA_IN0_1 1 0 1 NJ
+preplace netloc BitCreate_0_DATA 1 5 1 1440
+preplace netloc DATA_IN1_1 1 0 1 NJ
+preplace netloc DelaySel1_0_DATA_O0 1 1 1 N
+preplace netloc DelaySel1_0_DATA_O1 1 1 1 N
+preplace netloc CalcComp_0_ap_return 1 4 1 1250
+preplace netloc DATA_IN8_1 1 0 1 NJ
+preplace netloc DelaySel1_0_DATA_O2 1 1 1 N
+preplace netloc CalcSumMag_0_ap_return 1 2 1 770
+preplace netloc BitCreate_0_ENA 1 5 1 1450
+preplace netloc COMP_DATA_1 1 0 4 NJ 450 NJ 450 NJ 450 NJ
+preplace netloc DATA_IN7_1 1 0 1 NJ
+preplace netloc DelaySel1_0_DATA_O3 1 1 1 N
+preplace netloc blk_mem_gen_0_doutb 1 5 2 1470 270 NJ
+preplace netloc DelayData2_0_DATA_OUT 1 4 1 N
+preplace netloc DelaySel1_0_DATA_O4 1 1 1 490
+preplace netloc DATA_IN6_1 1 0 1 NJ
+preplace netloc DATA_IN5_1 1 0 1 NJ
+preplace netloc DelaySel1_0_DATA_O5 1 1 1 N
+preplace netloc CalcFDiv_0_ap_return 1 3 1 990
+preplace netloc DelaySel1_0_DATA_O6 1 1 1 N
+levelinfo -pg 1 0 360 640 880 1120 1340 1690 1820 -top -40 -bot 580
+",
+}
+0

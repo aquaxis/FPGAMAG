@@ -1,0 +1,45 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.5  2015-06-26 bk=1.3371 VDI=38 GEI=35 GUI=JA:1.8
+#  -string -flagsOSRD
+preplace port FSYNC -pg 1 -y 600 -defaultsOSRD
+preplace port LOCAL_CLK -pg 1 -y 400 -defaultsOSRD
+preplace port RD_IN_WE -pg 1 -y 180 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 360 -defaultsOSRD
+preplace port M_AXI -pg 1 -y 410 -defaultsOSRD
+preplace port M_AXI_ACLK -pg 1 -y 510 -defaultsOSRD
+preplace port RD_OUT_WE -pg 1 -y 120 -defaultsOSRD
+preplace port RD_CLK -pg 1 -y 140 -defaultsOSRD
+preplace portBus ARESETN -pg 1 -y 380 -defaultsOSRD
+preplace portBus RD_IN_DI -pg 1 -y 200 -defaultsOSRD
+preplace portBus RD_OUT_DATA -pg 1 -y 140 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 60 -defaultsOSRD
+preplace inst aq_axi_dma_0 -pg 1 -lvl 3 -y 480 -defaultsOSRD
+preplace inst aq_fifo6432_0 -pg 1 -lvl 2 -y 120 -defaultsOSRD
+preplace inst aq_axi_lite_slave_0 -pg 1 -lvl 2 -y 400 -defaultsOSRD
+preplace netloc Conn1 1 3 1 N
+preplace netloc Conn2 1 0 2 NJ 360 NJ
+preplace netloc RD_IN_WE_1 1 0 2 NJ 180 NJ
+preplace netloc aq_axi_lite_slave_0_LOCAL_BE 1 2 1 570
+preplace netloc aq_axi_dma_0_LOCAL_ACK 1 1 3 230 670 NJ 670 990
+preplace netloc aq_fifo6432_0_RD_OUT_WE 1 2 2 620 120 N
+preplace netloc aq_axi_lite_slave_0_LOCAL_ADDR 1 2 1 600
+preplace netloc FSYNC_1 1 0 3 NJ 600 NJ 600 N
+preplace netloc ARESETN_1 1 0 3 NJ 380 170 500 NJ
+preplace netloc aq_axi_dma_0_LOCAL_RDATA 1 1 3 220 290 NJ 290 970
+preplace netloc aq_axi_lite_slave_0_LOCAL_WDATA 1 2 1 550
+preplace netloc aq_axi_dma_0_FIFO_WR_FULL 1 1 3 220 280 NJ 280 1000
+preplace netloc aq_axi_dma_0_FIFO_RD_EMPTY 1 1 3 210 260 NJ 260 1010
+preplace netloc aq_axi_dma_0_FIFO_RST 1 1 3 200 270 NJ 270 980
+preplace netloc aq_fifo6432_0_RD_OUT_DATA 1 2 2 610 140 N
+preplace netloc aq_fifo6432_0_WR_IN_RE 1 2 1 630
+preplace netloc xlconstant_0_dout 1 1 2 180 530 NJ
+preplace netloc aq_axi_lite_slave_0_LOCAL_CS 1 2 1 650
+preplace netloc RD_IN_DI_1 1 0 2 NJ 200 NJ
+preplace netloc aq_axi_lite_slave_0_LOCAL_RNW 1 2 1 640
+preplace netloc M_AXI_ACLK_1 1 0 3 NJ 520 NJ 520 NJ
+preplace netloc RD_CLK_1 1 0 3 NJ 140 190 300 NJ
+preplace netloc LOCAL_CLK_1 1 0 3 NJ 400 160 510 NJ
+preplace netloc aq_axi_dma_0_FIFO_RD_DOUT 1 1 3 230 250 NJ 250 1020
+levelinfo -pg 1 0 90 390 810 1040 -top 0 -bot 680
+",
+}

@@ -1,0 +1,129 @@
+{
+   comment_0: "CalcSumMag = 43t",
+   comment_1: "DelaySel1 = 10t",
+   comment_2: "CalcFDiv = 15t",
+   comment_3: "CalcComp = 0t",
+   comment_4: "BitCreate = 9t",
+   comment_5: "Result HOG Data
+ 256 x 144",
+   comment_6: "CalcSumMag2 = 16t",
+   comment_7: "DelayData3 = 9t",
+   comment_8: "DataBuf = 1t",
+   commentid: "comment_0|comment_1|comment_2|comment_3|comment_4|comment_5|comment_6|comment_7|comment_8|",
+   fillcolor_comment_1: "",
+   fillcolor_comment_6: "",
+   fillcolor_comment_7: "",
+   fillcolor_comment_8: "",
+   font_comment_0: "13",
+   font_comment_1: "13",
+   font_comment_2: "13",
+   font_comment_3: "13",
+   font_comment_4: "13",
+   font_comment_5: "16",
+   font_comment_6: "13",
+   font_comment_7: "13",
+   font_comment_8: "13",
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port RST_N -pg 1 -y 70 -defaultsOSRD
+preplace port VSYNC -pg 1 -y 0 -defaultsOSRD
+preplace port HSYNC -pg 1 -y 20 -defaultsOSRD
+preplace port ACLK -pg 1 -y 640 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 600 -defaultsOSRD
+preplace port CLK -pg 1 -y 170 -defaultsOSRD
+preplace portBus DATA_IN1 -pg 1 -y 270 -defaultsOSRD
+preplace portBus DATA_IN2 -pg 1 -y 290 -defaultsOSRD
+preplace portBus DATA_IN3 -pg 1 -y 310 -defaultsOSRD
+preplace portBus DATA_IN4 -pg 1 -y 330 -defaultsOSRD
+preplace portBus DATA_IN5 -pg 1 -y 350 -defaultsOSRD
+preplace portBus DATA_IN6 -pg 1 -y 370 -defaultsOSRD
+preplace portBus DATA_IN7 -pg 1 -y 390 -defaultsOSRD
+preplace portBus DATA_IN8 -pg 1 -y 410 -defaultsOSRD
+preplace portBus SEL -pg 1 -y 190 -defaultsOSRD
+preplace portBus DATA_IN0 -pg 1 -y 250 -defaultsOSRD
+preplace inst ReTiming6 -pg 1 -lvl 7 -y 50 -defaultsOSRD
+preplace inst CalcSumMag -pg 1 -lvl 3 -y 290 -defaultsOSRD
+preplace inst CalcSumMag2_0 -pg 1 -lvl 5 -y 250 -defaultsOSRD
+preplace inst CalcFDiv -pg 1 -lvl 7 -y 210 -defaultsOSRD
+preplace inst DelayBuf -pg 1 -lvl 1 -y 170 -defaultsOSRD
+preplace inst RAM_HOG1 -pg 1 -lvl 10 -y 230 -defaultsOSRD
+preplace inst RST -pg 1 -lvl 1 -y 70 -defaultsOSRD
+preplace inst CalcComp -pg 1 -lvl 8 -y 210 -defaultsOSRD
+preplace inst DelayData3_0 -pg 1 -lvl 4 -y 270 -defaultsOSRD
+preplace inst DelaySel1 -pg 1 -lvl 2 -y 300 -defaultsOSRD
+preplace inst DataBuf_0 -pg 1 -lvl 6 -y 240 -defaultsOSRD
+preplace inst Delay_95t -pg 1 -lvl 3 -y 510 -defaultsOSRD
+preplace inst BitCreate_0 -pg 1 -lvl 9 -y 190 -defaultsOSRD
+preplace inst Result -pg 1 -lvl 7 -y 630 -defaultsOSRD
+preplace netloc Conn1 1 0 7 NJ 600 NJ 600 NJ 600 NJ 600 NJ 600 NJ 600 NJ
+preplace netloc DelayData3_0_DATA_O7 1 4 1 N
+preplace netloc RAM_HOG1_doutb 1 6 4 2240 310 NJ 310 NJ 310 N
+preplace netloc Debug_Dout 1 7 3 NJ 610 NJ 610 3000
+preplace netloc DelaySel1_0_DATA_O7 1 2 1 N
+preplace netloc DelayData3_0_DATA_O8 1 4 1 N
+preplace netloc SEL_1 1 0 1 NJ
+preplace netloc DATA_IN4_1 1 0 2 NJ 330 NJ
+preplace netloc DelaySel1_0_DATA_O8 1 2 1 N
+preplace netloc CLK_1 1 0 10 -10 240 310 140 760 140 1200 500 1530 500 1920 500 2210 500 NJ 500 2800 500 2990
+preplace netloc RST_N_1 1 0 9 0 620 330 620 750 620 1210J 620 NJ 620 1910J 620 2200J 300 NJ 300 2790J
+preplace netloc DataBuf_0_Q 1 6 1 N
+preplace netloc DATA_IN3_1 1 0 2 NJ 310 NJ
+preplace netloc ACLK_1 1 0 10 NJ 640 NJ 640 NJ 640 NJ 640 N 640 NJ 640 2230 320 2560J 270 NJ 270 N
+preplace netloc DelayData1_0_DATA_OUT 1 3 4 NJ 550 NJ 550 NJ 550 2220
+preplace netloc ReTiming6_0_VALID 1 7 3 NJ 40 NJ 40 3020
+preplace netloc util_vector_logic_0_Res 1 1 6 NJ 70 770 70 NJ 70 1520J 70 NJ 70 2180J
+preplace netloc DATA_IN2_1 1 0 2 NJ 290 NJ
+preplace netloc DATA_IN0_1 1 0 2 NJ 250 NJ
+preplace netloc DelayBuf_0_Q 1 1 1 320
+preplace netloc HSYNC_1 1 0 7 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 2190J
+preplace netloc DelayData3_0_DATA_O0 1 4 1 N
+preplace netloc VSYNC_1 1 0 7 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 NJ 0 2240J
+preplace netloc BitCreate_0_DATA 1 9 1 N
+preplace netloc DATA_IN1_1 1 0 2 NJ 270 NJ
+preplace netloc DelaySel1_0_DATA_O0 1 2 1 N
+preplace netloc DelaySel1_RETIMING 1 2 1 730
+preplace netloc DelayData3_0_DATA_O1 1 4 1 N
+preplace netloc DelaySel1_0_DATA_O1 1 2 1 N
+preplace netloc Delay_55t_RETIMING3 1 3 3 NJ 510 NJ 510 1930J
+preplace netloc DelayData3_0_DATA_O2 1 4 1 N
+preplace netloc Debug_Res 1 7 3 NJ 630 NJ 630 3020
+preplace netloc CalcComp_0_ap_return 1 8 1 N
+preplace netloc DATA_IN8_1 1 0 2 NJ 410 NJ
+preplace netloc DelaySel1_0_DATA_O2 1 2 1 N
+preplace netloc DelayData3_0_DATA_O3 1 4 1 N
+preplace netloc DATA_IN7_1 1 0 2 NJ 390 NJ
+preplace netloc DelaySel1_0_DATA_O3 1 2 1 N
+preplace netloc DelayData3_0_DATA_O4 1 4 1 N
+preplace netloc Debug_LOCAL_WDATA 1 7 3 NJ 650 NJ 650 3010
+preplace netloc DelaySel1_0_DATA_O4 1 2 1 740
+preplace netloc DelayData3_0_DATA_O5 1 4 1 N
+preplace netloc CalcSumMag_ap_return 1 3 1 N
+preplace netloc ReTiming6_0_ADRS 1 7 3 NJ 60 NJ 60 2990
+preplace netloc DATA_IN6_1 1 0 2 NJ 370 NJ
+preplace netloc DATA_IN5_1 1 0 2 NJ 350 NJ
+preplace netloc DelaySel1_0_DATA_O5 1 2 1 N
+preplace netloc CalcSumMag2_0_ap_return 1 5 1 N
+preplace netloc DelayData3_0_DATA_O6 1 4 1 N
+preplace netloc CalcFDiv_0_ap_return 1 7 1 N
+preplace netloc DelaySel1_0_DATA_O6 1 2 1 N
+preplace cgraphic comment_3 place abs 2508 -128 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_2 place abs 2191 -126 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_1 place abs 555 -136 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_0 place abs 1006 -134 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_7 place abs 1324 -126 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_6 place abs 1656 -121 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_5 place abs 3151 4 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_4 place abs 2804 -126 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_8 place abs 1909 -124 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 -30 200 610 1070 1390 1800 2100 2410 2680 2900 3230 3340 -top -160 -bot 1080
+",
+   linecolor_comment_1: "",
+   linecolor_comment_6: "",
+   linecolor_comment_7: "",
+   linecolor_comment_8: "",
+   textcolor_comment_1: "",
+   textcolor_comment_6: "",
+   textcolor_comment_7: "",
+   textcolor_comment_8: "",
+}
+0

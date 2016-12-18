@@ -1,0 +1,62 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.5  2015-06-26 bk=1.3371 VDI=38 GEI=35 GUI=JA:1.8
+#  -string -flagsOSRD
+preplace port VSYNC -pg 1 -y 860 -defaultsOSRD
+preplace port HSYNC -pg 1 -y 840 -defaultsOSRD
+preplace port ACLK -pg 1 -y 450 -defaultsOSRD
+preplace port CLK_LOCKED -pg 1 -y 580 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 300 -defaultsOSRD
+preplace port M_AXI -pg 1 -y 320 -defaultsOSRD
+preplace port M_AXI_ACLK -pg 1 -y 710 -defaultsOSRD
+preplace portBus DOUT_G -pg 1 -y 900 -defaultsOSRD
+preplace portBus TMDS -pg 1 -y 680 -defaultsOSRD
+preplace portBus ARESETN -pg 1 -y 650 -defaultsOSRD
+preplace portBus TMDSB -pg 1 -y 700 -defaultsOSRD
+preplace portBus DOUT_B -pg 1 -y 920 -defaultsOSRD
+preplace portBus DOUT_R -pg 1 -y 880 -defaultsOSRD
+preplace inst aq_vga_0 -pg 1 -lvl 5 -y 880 -defaultsOSRD
+preplace inst aq_hdmi_enc_0 -pg 1 -lvl 5 -y 690 -defaultsOSRD
+preplace inst aq_intreg_0 -pg 1 -lvl 3 -y 520 -defaultsOSRD
+preplace inst aq_syncgen_0 -pg 1 -lvl 2 -y 540 -defaultsOSRD
+preplace inst aq_axi_dma_0 -pg 1 -lvl 5 -y 390 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 640 -defaultsOSRD
+preplace inst aq_fifo6432_0 -pg 1 -lvl 4 -y 190 -defaultsOSRD
+preplace inst aq_axi_lite_slave_0 -pg 1 -lvl 3 -y 340 -defaultsOSRD
+preplace netloc aq_syncgen_0_VSYNC 1 2 3 NJ 670 NJ 670 1180
+preplace netloc clk_wiz_0_locked 1 1 5 NJ 660 NJ 660 NJ 580 NJ 580 NJ
+preplace netloc aq_syncgen_0_HSYNC 1 2 3 NJ 710 NJ 710 1240
+preplace netloc aq_axi_lite_slave_0_LOCAL_BE 1 3 2 NJ 350 N
+preplace netloc aq_axi_dma_0_LOCAL_ACK 1 2 4 470 50 NJ 50 NJ 50 1610
+preplace netloc aq_axi_lite_slave_0_LOCAL_ADDR 1 3 2 NJ 330 N
+preplace netloc aq_vga_0_DOUT_B 1 5 1 NJ
+preplace netloc aq_axi_lite_slave_0_LOCAL_WDATA 1 3 2 NJ 370 N
+preplace netloc aq_axi_dma_0_LOCAL_RDATA 1 2 4 480 60 NJ 60 NJ 60 1600
+preplace netloc aq_vga_0_HSYNC 1 5 1 NJ
+preplace netloc aq_hdmi_enc_0_TMDSB 1 5 1 NJ
+preplace netloc aq_vga_0_VSYNC 1 5 1 NJ
+preplace netloc aq_syncgen_0_FSYNC 1 2 1 450
+preplace netloc aq_axi_dma_0_FIFO_WR_FULL 1 3 3 870 40 NJ 40 1630
+preplace netloc aq_axi_dma_0_FIFO_RST 1 3 3 880 30 NJ 30 1620
+preplace netloc aq_axi_dma_0_FIFO_RD_EMPTY 1 3 3 860 20 NJ 20 1640
+preplace netloc aq_vga_0_DOUT_R 1 5 1 NJ
+preplace netloc aq_fifo6432_0_WR_IN_RE 1 4 1 1270
+preplace netloc aq_fifo6432_0_RD_OUT_DATA 1 4 1 1250
+preplace netloc aq_axi_lite_slave_0_LOCAL_CS 1 3 2 NJ 340 1230
+preplace netloc aq_axi_dma_0_M_AXI 1 5 1 NJ
+preplace netloc clk_wiz_0_clk_out1 1 1 4 190 630 410 230 840 410 1260
+preplace netloc aq_intreg_0_INT 1 3 2 NJ 510 N
+preplace netloc clk_wiz_0_clk_out2 1 1 4 NJ 640 NJ 640 NJ 640 1200
+preplace netloc aq_hdmi_enc_0_TMDS 1 5 1 NJ
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 5 20 710 180 650 440 240 NJ 360 1280
+preplace netloc aq_vga_0_DOUT_G 1 5 1 NJ
+preplace netloc aq_fifo6432_0_WR_OUT_DO 1 4 1 1210
+preplace netloc aq_axi_lite_slave_0_LOCAL_RNW 1 3 2 NJ 320 1240
+preplace netloc M_AXI_ACLK_1 1 0 5 NJ 40 NJ 40 NJ 40 NJ 390 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 20 450 NJ 450 460 440 NJ 440 1220
+preplace netloc axi_interconnect_1_M00_AXI 1 0 3 NJ 300 NJ 300 NJ
+preplace netloc aq_syncgen_0_ACTIVE 1 2 3 NJ 600 850 600 1190
+preplace netloc aq_axi_dma_0_FIFO_RD_DOUT 1 3 3 850 10 NJ 10 1650
+levelinfo -pg 1 -10 100 300 640 1030 1440 1670 -top 0 -bot 980
+",
+}
+0

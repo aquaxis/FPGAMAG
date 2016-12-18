@@ -1,0 +1,116 @@
+{
+   comment_0: "list_x
+width: 8bit(unsigned char)
+0 <= addr < 20",
+   comment_1: "list_x
+width: 8bit(unsigned char)
+ 0 <= addr < 20",
+   comment_2: "list_w
+width: 32bit(float)
+ 0 <= addr < 20",
+   comment_3: "list_w
+width: 16bit(unsigned short)
+ 0 <= addr < 20",
+   comment_4: "list_w
+width: 1bit(unsigned char)
+ addr: 256 x 144",
+   commentid: "comment_0|comment_1|comment_2|comment_3|comment_4|",
+   font_comment_0: "13",
+   font_comment_1: "13",
+   font_comment_2: "13",
+   font_comment_3: "13",
+   font_comment_4: "13",
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port S_AXI_X -pg 1 -y 870 -defaultsOSRD
+preplace port ap_ready -pg 1 -y 50 -defaultsOSRD
+preplace port S_AXI_Y -pg 1 -y 1030 -defaultsOSRD
+preplace port ACLK -pg 1 -y 890 -defaultsOSRD
+preplace port ap_idle -pg 1 -y 30 -defaultsOSRD
+preplace port ap_clk -pg 1 -y 300 -defaultsOSRD
+preplace port ap_done -pg 1 -y 10 -defaultsOSRD
+preplace port S_AXI_RSLT -pg 1 -y 2160 -defaultsOSRD
+preplace port S_AXI_H -pg 1 -y 1360 -defaultsOSRD
+preplace port HogBin_CLK -pg 1 -y 110 -defaultsOSRD
+preplace port S_AXI_W -pg 1 -y 1200 -defaultsOSRD
+preplace portBus ap_start -pg 1 -y 340 -defaultsOSRD
+preplace portBus HogBin_ADDR -pg 1 -y 70 -defaultsOSRD
+preplace portBus RST_N -pg 1 -y 910 -defaultsOSRD
+preplace portBus ap_rst -pg 1 -y 320 -defaultsOSRD
+preplace portBus HogBin_DATA -pg 1 -y 360 -defaultsOSRD
+preplace inst axi_result -pg 1 -lvl 2 -y 2380 -defaultsOSRD
+preplace inst Const_256 -pg 1 -lvl 1 -y 480 -defaultsOSRD
+preplace inst axi_list_h -pg 1 -lvl 2 -y 2160 -defaultsOSRD
+preplace inst axi_list_w -pg 1 -lvl 2 -y 1790 -defaultsOSRD
+preplace inst result -pg 1 -lvl 3 -y 2660 -defaultsOSRD
+preplace inst list_h -pg 1 -lvl 3 -y 2220 -defaultsOSRD
+preplace inst ADA -pg 1 -lvl 2 -y 320 -defaultsOSRD
+preplace inst axi_list_y -pg 1 -lvl 2 -y 1420 -defaultsOSRD
+preplace inst Const_144 -pg 1 -lvl 1 -y 560 -defaultsOSRD
+preplace inst list_w -pg 1 -lvl 3 -y 1800 -defaultsOSRD
+preplace inst list_x -pg 1 -lvl 3 -y 1040 -defaultsOSRD
+preplace inst list_y -pg 1 -lvl 3 -y 1360 -defaultsOSRD
+preplace inst axi_list_X -pg 1 -lvl 2 -y 1040 -defaultsOSRD
+preplace netloc xlconstant_1_dout 1 1 1 -50J
+preplace netloc axi_result2_LOCAL_WDATA 1 2 1 560
+preplace netloc ATAN2_TTABLE_LOCAL_WDATA 1 2 1 470
+preplace netloc Ada_0_result_Din_A 1 2 1 510
+preplace netloc xlconstant_2_dout 1 1 1 -40J
+preplace netloc s_axi_aclk_1 1 0 3 NJ 890 -40 1310 640
+preplace netloc axi_result4_LOCAL_WDATA 1 2 1 530
+preplace netloc s_axi_aresetn_1 1 0 2 NJ 910 -50
+preplace netloc Ada_0_ada_list_x_Clk_A 1 2 1 700
+preplace netloc Ada_0_ada_list_h_Clk_A 1 2 1 600
+preplace netloc ADA_HogBin_Clk_A 1 2 2 N 70 920J
+preplace netloc axi_result1_Res 1 2 1 610
+preplace netloc ADA_ap_ready 1 2 2 N -30 940J
+preplace netloc ap_start_1 1 0 2 -260J 260 N
+preplace netloc Ada_0_ada_list_x_Addr_A 1 2 1 710
+preplace netloc HogBin_Dout_A_1 1 0 2 -250J 280 N
+preplace netloc list_w_doutb 1 1 2 -20J 1890 NJ
+preplace netloc axi_result3_LOCAL_WDATA 1 2 1 570
+preplace netloc axi_result1_Dout 1 2 1 470
+preplace netloc axi_result2_Dout 1 2 1 570
+preplace netloc Ada_0_result_Clk_A 1 2 1 500
+preplace netloc Ada_0_ada_list_y_Addr_A 1 2 1 690
+preplace netloc Ada_0_result_Addr_A 1 2 1 550
+preplace netloc Ada_0_ada_list_w_Addr_A 1 2 1 670
+preplace netloc Ada_0_ada_list_y_Clk_A 1 2 1 680
+preplace netloc S_AXI_H_1 1 0 2 -280J 2130 N
+preplace netloc Ada_0_HogBin_Addr_A 1 2 2 NJ -10 930J
+preplace netloc ap_clk_1 1 0 2 -280J 220 N
+preplace netloc S_AXI_X_1 1 0 2 -270J 1010 N
+preplace netloc S_AXI_Y_1 1 0 2 -250J 1390 N
+preplace netloc axi_result4_Dout 1 2 1 470
+preplace netloc axi_result2_Res 1 2 1 580
+preplace netloc LOCAL_RDATA_1 1 1 2 10 2640 NJ
+preplace netloc ATAN2_TTABLE_Dout 1 2 1 490
+preplace netloc Ada_0_result_WEN_A 1 2 1 520
+preplace netloc axi_result4_Res 1 2 1 650
+preplace netloc axi_result1_LOCAL_WDATA 1 2 1 530
+preplace netloc LOCAL_RDATA_2 1 1 2 10 2240 710J
+preplace netloc Ada_0_ap_done 1 2 2 NJ -70 960J
+preplace netloc S_AXI_W_1 1 0 2 -260J 1760 N
+preplace netloc LOCAL_RDATA_3 1 1 2 10 1870 650J
+preplace netloc list_x_doutb 1 1 2 0J 1130 NJ
+preplace netloc S_AXI_RSLT_1 1 0 2 -270J 2350 N
+preplace netloc LOCAL_RDATA_4 1 1 2 10 1500 590J
+preplace netloc Ada_0_ada_list_h_Addr_A 1 2 1 620
+preplace netloc list_y_doutb 1 1 2 -10J 1510 630J
+preplace netloc Ada_0_ada_list_w_Clk_A 1 2 1 660
+preplace netloc LOCAL_RDATA_5 1 1 2 10 1120 540J
+preplace netloc axi_result3_Res 1 2 1 580
+preplace netloc axi_result3_Dout 1 2 1 560
+preplace netloc ATAN2_TTABLE_Res 1 2 1 480
+preplace netloc ADA_ap_idle 1 2 2 N -50 950J
+preplace netloc ap_rst_1 1 0 2 -270J 240 N
+preplace netloc list_h_doutb 1 1 2 -30J 2260 470J
+preplace cgraphic comment_3 place abs 952 1874 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_2 place abs 951 1553 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_1 place abs 941 1255 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_0 place abs 968 985 textcolor 4 linecolor 3 linewidth 2
+preplace cgraphic comment_4 place abs 1394 2256 textcolor 4 linecolor 3 linewidth 2
+levelinfo -pg 1 -300 -120 290 820 980 -top -110 -bot 2810
+",
+}
+0

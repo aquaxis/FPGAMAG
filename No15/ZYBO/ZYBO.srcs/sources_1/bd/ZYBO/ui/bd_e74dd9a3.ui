@@ -1,0 +1,145 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port RST_N -pg 1 -y 1900 -defaultsOSRD
+preplace port CLK -pg 1 -y 1920 -defaultsOSRD
+preplace portBus OUT_8 -pg 1 -y 1950 -defaultsOSRD
+preplace portBus DATA_IN1 -pg 1 -y 680 -defaultsOSRD
+preplace portBus OUT_9 -pg 1 -y 150 -defaultsOSRD
+preplace portBus DATA_IN2 -pg 1 -y 440 -defaultsOSRD
+preplace portBus DATA_IN3 -pg 1 -y 1160 -defaultsOSRD
+preplace portBus DATA_IN4 -pg 1 -y 1640 -defaultsOSRD
+preplace portBus DATA_IN5 -pg 1 -y 2390 -defaultsOSRD
+preplace portBus DATA_IN6 -pg 1 -y 1880 -defaultsOSRD
+preplace portBus OUT_0 -pg 1 -y 450 -defaultsOSRD
+preplace portBus DATA_IN7 -pg 1 -y 2120 -defaultsOSRD
+preplace portBus OUT_1 -pg 1 -y 750 -defaultsOSRD
+preplace portBus DATA_IN8 -pg 1 -y 1400 -defaultsOSRD
+preplace portBus OUT_2 -pg 1 -y 1050 -defaultsOSRD
+preplace portBus OUT_3 -pg 1 -y 1350 -defaultsOSRD
+preplace portBus OUT_4 -pg 1 -y 1650 -defaultsOSRD
+preplace portBus OUT_6 -pg 1 -y 2550 -defaultsOSRD
+preplace portBus DATA_IN -pg 1 -y 920 -defaultsOSRD
+preplace portBus OUT_7 -pg 1 -y 2250 -defaultsOSRD
+preplace inst DelayData1_1 -pg 1 -lvl 1 -y 2100 -defaultsOSRD
+preplace inst Selector9_3 -pg 1 -lvl 2 -y 1050 -defaultsOSRD
+preplace inst DelayData1_2 -pg 1 -lvl 1 -y 1380 -defaultsOSRD
+preplace inst Selector9_4 -pg 1 -lvl 2 -y 1350 -defaultsOSRD
+preplace inst Selector9_5 -pg 1 -lvl 2 -y 1650 -defaultsOSRD
+preplace inst DelayData1_3 -pg 1 -lvl 1 -y 900 -defaultsOSRD
+preplace inst Selector9_6 -pg 1 -lvl 2 -y 1950 -defaultsOSRD
+preplace inst DelayData1_4 -pg 1 -lvl 1 -y 660 -defaultsOSRD
+preplace inst Selector9_7 -pg 1 -lvl 2 -y 2250 -defaultsOSRD
+preplace inst DelayData1_5 -pg 1 -lvl 1 -y 420 -defaultsOSRD
+preplace inst Selector9_8 -pg 1 -lvl 2 -y 2550 -defaultsOSRD
+preplace inst DelayData1_6 -pg 1 -lvl 1 -y 1140 -defaultsOSRD
+preplace inst DelayData1_7 -pg 1 -lvl 1 -y 1620 -defaultsOSRD
+preplace inst DelayData1_8 -pg 1 -lvl 1 -y 2370 -defaultsOSRD
+preplace inst Selector9_0 -pg 1 -lvl 2 -y 150 -defaultsOSRD
+preplace inst Selector9_1 -pg 1 -lvl 2 -y 450 -defaultsOSRD
+preplace inst DelayData1_0 -pg 1 -lvl 1 -y 1860 -defaultsOSRD
+preplace inst Selector9_2 -pg 1 -lvl 2 -y 750 -defaultsOSRD
+preplace netloc Selector9_3_OUT_0 1 2 1 NJ
+preplace netloc DelayData1_8_DATA8 1 1 1 260
+preplace netloc DelayData1_7_DATA4 1 1 1 380
+preplace netloc DelayData1_7_DATA5 1 1 1 550
+preplace netloc DelayData1_7_DATA6 1 1 1 470
+preplace netloc DelayData1_7_DATA7 1 1 1 360
+preplace netloc Selector9_0_OUT_0 1 2 1 NJ
+preplace netloc DelayData1_2_DATA0 1 1 1 320
+preplace netloc DelayData1_7_DATA8 1 1 1 290
+preplace netloc DelayData1_2_DATA1 1 1 1 480
+preplace netloc DelayData1_2_DATA2 1 1 1 540
+preplace netloc DelayData1_2_DATA3 1 1 1 600
+preplace netloc DelayData1_2_DATA4 1 1 1 N
+preplace netloc DelayData1_2_DATA5 1 1 1 370
+preplace netloc DATA_IN_1 1 0 1 NJ
+preplace netloc Selector9_1_OUT_0 1 2 1 NJ
+preplace netloc DelayData1_2_DATA6 1 1 1 540
+preplace netloc DelayData1_1_DATA0 1 1 1 490
+preplace netloc DelayData1_2_DATA7 1 1 1 440
+preplace netloc RST_N_1 1 0 2 10 270 690
+preplace netloc DelayData1_2_DATA8 1 1 1 320
+preplace netloc DelayData1_1_DATA1 1 1 1 300
+preplace netloc Selector9_7_OUT_0 1 2 1 NJ
+preplace netloc DATA_IN3_1 1 0 1 NJ
+preplace netloc DelayData1_1_DATA2 1 1 1 710
+preplace netloc CLK_1 1 0 2 20 290 700
+preplace netloc DelayData1_1_DATA3 1 1 1 760
+preplace netloc DelayData1_1_DATA4 1 1 1 800
+preplace netloc DelayData1_1_DATA5 1 1 1 820
+preplace netloc DelayData1_1_DATA6 1 1 1 620
+preplace netloc DelayData1_1_DATA7 1 1 1 300
+preplace netloc Selector9_2_OUT_0 1 2 1 NJ
+preplace netloc DelayData1_1_DATA8 1 1 1 270
+preplace netloc DATA_IN2_1 1 0 1 NJ
+preplace netloc DelayData1_6_DATA0 1 1 1 340
+preplace netloc DelayData1_3_DATA0 1 1 1 280
+preplace netloc DelayData1_6_DATA1 1 1 1 410
+preplace netloc DelayData1_3_DATA1 1 1 1 400
+preplace netloc DelayData1_6_DATA2 1 1 1 510
+preplace netloc DelayData1_3_DATA2 1 1 1 470
+preplace netloc DelayData1_5_DATA0 1 1 1 270
+preplace netloc DelayData1_6_DATA3 1 1 1 550
+preplace netloc DelayData1_3_DATA3 1 1 1 810
+preplace netloc DATA_IN7_1 1 0 1 NJ
+preplace netloc DelayData1_5_DATA1 1 1 1 520
+preplace netloc DelayData1_6_DATA4 1 1 1 670
+preplace netloc DelayData1_3_DATA4 1 1 1 750
+preplace netloc DelayData1_5_DATA2 1 1 1 810
+preplace netloc DelayData1_6_DATA5 1 1 1 640
+preplace netloc DelayData1_3_DATA5 1 1 1 720
+preplace netloc DATA_IN4_1 1 0 1 NJ
+preplace netloc DelayData1_6_DATA6 1 1 1 580
+preplace netloc DelayData1_3_DATA6 1 1 1 620
+preplace netloc DelayData1_5_DATA3 1 1 1 270
+preplace netloc Selector9_8_OUT_0 1 2 1 NJ
+preplace netloc DelayData1_5_DATA4 1 1 1 500
+preplace netloc DelayData1_6_DATA7 1 1 1 510
+preplace netloc DelayData1_3_DATA7 1 1 1 560
+preplace netloc DATA_IN1_1 1 0 1 NJ
+preplace netloc DelayData1_5_DATA5 1 1 1 390
+preplace netloc DelayData1_6_DATA8 1 1 1 340
+preplace netloc DelayData1_3_DATA8 1 1 1 450
+preplace netloc DelayData1_5_DATA6 1 1 1 350
+preplace netloc DelayData1_5_DATA7 1 1 1 310
+preplace netloc Selector9_6_OUT_0 1 2 1 NJ
+preplace netloc Selector9_5_OUT_0 1 2 1 NJ
+preplace netloc Selector9_4_OUT_0 1 2 1 NJ
+preplace netloc DelayData1_0_DATA0 1 1 1 420
+preplace netloc DelayData1_5_DATA8 1 1 1 520
+preplace netloc DATA_IN6_1 1 0 1 NJ
+preplace netloc DelayData1_0_DATA1 1 1 1 570
+preplace netloc DelayData1_4_DATA0 1 1 1 260
+preplace netloc DelayData1_0_DATA2 1 1 1 650
+preplace netloc DelayData1_8_DATA0 1 1 1 610
+preplace netloc DelayData1_4_DATA1 1 1 1 290
+preplace netloc DelayData1_0_DATA3 1 1 1 680
+preplace netloc DelayData1_4_DATA2 1 1 1 780
+preplace netloc DelayData1_0_DATA4 1 1 1 600
+preplace netloc DelayData1_8_DATA1 1 1 1 730
+preplace netloc DelayData1_4_DATA3 1 1 1 440
+preplace netloc DelayData1_0_DATA5 1 1 1 790
+preplace netloc DelayData1_8_DATA2 1 1 1 780
+preplace netloc DelayData1_0_DATA6 1 1 1 380
+preplace netloc DelayData1_4_DATA4 1 1 1 370
+preplace netloc DelayData1_8_DATA3 1 1 1 810
+preplace netloc DATA_IN8_1 1 0 1 NJ
+preplace netloc DelayData1_0_DATA7 1 1 1 330
+preplace netloc DelayData1_7_DATA0 1 1 1 430
+preplace netloc DelayData1_4_DATA5 1 1 1 770
+preplace netloc DelayData1_8_DATA4 1 1 1 830
+preplace netloc DATA_IN5_1 1 0 1 NJ
+preplace netloc DelayData1_0_DATA8 1 1 1 280
+preplace netloc DelayData1_4_DATA6 1 1 1 740
+preplace netloc DelayData1_8_DATA5 1 1 1 840
+preplace netloc DelayData1_7_DATA1 1 1 1 530
+preplace netloc DelayData1_8_DATA6 1 1 1 850
+preplace netloc DelayData1_4_DATA7 1 1 1 630
+preplace netloc DelayData1_7_DATA2 1 1 1 590
+preplace netloc DelayData1_8_DATA7 1 1 1 860
+preplace netloc DelayData1_4_DATA8 1 1 1 460
+preplace netloc DelayData1_7_DATA3 1 1 1 660
+levelinfo -pg 1 -10 140 970 1100 -top 0 -bot 2710
+",
+}

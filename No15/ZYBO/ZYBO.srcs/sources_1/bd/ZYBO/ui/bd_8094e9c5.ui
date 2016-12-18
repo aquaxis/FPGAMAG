@@ -1,0 +1,39 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port RST_N -pg 1 -y 70 -defaultsOSRD
+preplace port CAM_VSYNC -pg 1 -y 260 -defaultsOSRD
+preplace port ACLK -pg 1 -y 90 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 50 -defaultsOSRD
+preplace port CAM_CLK -pg 1 -y 220 -defaultsOSRD
+preplace port CAM_ENA -pg 1 -y 240 -defaultsOSRD
+preplace portBus CAM_DATA -pg 1 -y 280 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -y 410 -defaultsOSRD
+preplace inst aq_axi_lite_slave -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst CamDummy -pg 1 -lvl 2 -y 300 -defaultsOSRD
+preplace netloc CamDummy_0_CAM_DATA 1 2 2 770J 270 980J
+preplace netloc CamDummy_0_A_DO 1 2 1 N
+preplace netloc CamDummy_0_LOCAL_RDATA 1 0 3 30 200 390J 130 760
+preplace netloc aq_axi_lite_slave_0_LOCAL_BE 1 1 1 360
+preplace netloc CamDummy_0_CAM_VSYNC 1 2 2 NJ 260 NJ
+preplace netloc CamDummy_0_CAM_CLK 1 2 2 NJ 220 NJ
+preplace netloc aq_axi_lite_slave_0_LOCAL_ADDR 1 1 1 380
+preplace netloc smartconnect_0_M04_AXI 1 0 1 NJ
+preplace netloc CamDummy_0_A_CLK 1 2 1 770
+preplace netloc aq_axi_lite_slave_0_LOCAL_WDATA 1 1 1 350
+preplace netloc CamDummy_0_B_ADDR 1 2 1 740
+preplace netloc aq_axi_lite_slave_0_LOCAL_CS 1 1 1 410
+preplace netloc CamDummy_0_B_CLK 1 2 1 750
+preplace netloc CamDummy_0_A_ADDR 1 2 1 N
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 2 10 220 NJ
+preplace netloc blk_mem_gen_0_douta 1 1 2 370 470 770J
+preplace netloc aq_axi_lite_slave_0_LOCAL_RNW 1 1 1 400
+preplace netloc CamDummy_0_CAM_ENA 1 2 2 NJ 240 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 0 240 N
+preplace netloc blk_mem_gen_0_doutb 1 1 2 400 500 NJ
+preplace netloc CamDummy_0_A_WE 1 2 1 760
+preplace netloc CamDummy_0_LOCAL_ACK 1 0 3 20 190 370J 120 770
+levelinfo -pg 1 -20 190 580 880 1000 -top 0 -bot 550
+",
+}
+0

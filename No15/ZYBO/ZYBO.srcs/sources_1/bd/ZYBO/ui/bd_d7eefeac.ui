@@ -1,0 +1,159 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port RST_N -pg 1 -y 90 -defaultsOSRD
+preplace port ENA -pg 1 -y 170 -defaultsOSRD
+preplace port VSYNC -pg 1 -y 130 -defaultsOSRD
+preplace port HSYNC -pg 1 -y 150 -defaultsOSRD
+preplace port CLK -pg 1 -y 20 -defaultsOSRD
+preplace portBus DATA0 -pg 1 -y 120 -defaultsOSRD
+preplace portBus DATA1 -pg 1 -y 470 -defaultsOSRD
+preplace portBus DATA2 -pg 1 -y 930 -defaultsOSRD
+preplace portBus DATA3 -pg 1 -y 1290 -defaultsOSRD
+preplace portBus DATA4 -pg 1 -y 1650 -defaultsOSRD
+preplace portBus SEL -pg 1 -y -290 -defaultsOSRD
+preplace portBus DATA5 -pg 1 -y 2050 -defaultsOSRD
+preplace portBus DATA6 -pg 1 -y 2540 -defaultsOSRD
+preplace portBus DATA7 -pg 1 -y 2940 -defaultsOSRD
+preplace portBus DATA8 -pg 1 -y 3330 -defaultsOSRD
+preplace inst ReTiming5_0 -pg 1 -lvl 14 -y -290 -defaultsOSRD
+preplace inst PreHOG4 -pg 1 -lvl 16 -y 1450 -defaultsOSRD
+preplace inst CalcFAdd_0 -pg 1 -lvl 11 -y -10 -defaultsOSRD
+preplace inst PreHOG5 -pg 1 -lvl 16 -y 1850 -defaultsOSRD
+preplace inst CalcFAdd_1 -pg 1 -lvl 11 -y 330 -defaultsOSRD
+preplace inst PreHOG6 -pg 1 -lvl 16 -y 2330 -defaultsOSRD
+preplace inst CalcFAdd_2 -pg 1 -lvl 11 -y 660 -defaultsOSRD
+preplace inst DelayBuf_0 -pg 1 -lvl 3 -y 520 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -y -390 -defaultsOSRD
+preplace inst PreHOG7 -pg 1 -lvl 16 -y 2700 -defaultsOSRD
+preplace inst CalcFAdd_3 -pg 1 -lvl 11 -y 1030 -defaultsOSRD
+preplace inst CalcGrad_0 -pg 1 -lvl 7 -y 520 -defaultsOSRD
+preplace inst DelayBuf_1 -pg 1 -lvl 4 -y 500 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 5 -y -550 -defaultsOSRD
+preplace inst PreHOG8 -pg 1 -lvl 16 -y 3130 -defaultsOSRD
+preplace inst CalcFAdd_4 -pg 1 -lvl 11 -y 1460 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 5 -y -470 -defaultsOSRD
+preplace inst CalcFAdd_10 -pg 1 -lvl 13 -y 300 -defaultsOSRD
+preplace inst CalcFAdd_5 -pg 1 -lvl 11 -y 1810 -defaultsOSRD
+preplace inst DelayBuf_3 -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst CamTiming_0 -pg 1 -lvl 1 -y 130 -defaultsOSRD
+preplace inst Delay25RAM -pg 1 -lvl 9 -y 760 -defaultsOSRD
+preplace inst CalcFAdd_11 -pg 1 -lvl 13 -y 680 -defaultsOSRD
+preplace inst CalcFAdd_6 -pg 1 -lvl 11 -y 2230 -defaultsOSRD
+preplace inst ReTiming3_0 -pg 1 -lvl 10 -y -280 -defaultsOSRD
+preplace inst DelayBuf_4 -pg 1 -lvl 4 -y 620 -defaultsOSRD
+preplace inst CalcDiff_0 -pg 1 -lvl 6 -y 680 -defaultsOSRD
+preplace inst CamRAM1 -pg 1 -lvl 2 -y 410 -defaultsOSRD
+preplace inst CalcFAdd_12 -pg 1 -lvl 13 -y 1020 -defaultsOSRD
+preplace inst CalcFAdd_7 -pg 1 -lvl 11 -y 2630 -defaultsOSRD
+preplace inst CalcDiff_1 -pg 1 -lvl 6 -y 520 -defaultsOSRD
+preplace inst DelayBuf_5 -pg 1 -lvl 5 -y 600 -defaultsOSRD
+preplace inst CamRAM2 -pg 1 -lvl 2 -y 660 -defaultsOSRD
+preplace inst CamRAM -pg 1 -lvl 2 -y 140 -defaultsOSRD
+preplace inst DelayAddr1_0 -pg 1 -lvl 15 -y -290 -defaultsOSRD
+preplace inst CalcFAdd_13 -pg 1 -lvl 13 -y 1450 -defaultsOSRD
+preplace inst CalcFAdd_8 -pg 1 -lvl 11 -y 3080 -defaultsOSRD
+preplace inst CalcMag_0 -pg 1 -lvl 7 -y 670 -defaultsOSRD
+preplace inst DelayBuf_6 -pg 1 -lvl 3 -y 780 -defaultsOSRD
+preplace inst CalcFAdd_14 -pg 1 -lvl 13 -y 1790 -defaultsOSRD
+preplace inst CalcFAdd_9 -pg 1 -lvl 13 -y -20 -defaultsOSRD
+preplace inst atan2_table -pg 1 -lvl 7 -y 250 -defaultsOSRD
+preplace inst ReTiming2_0 -pg 1 -lvl 8 -y -280 -defaultsOSRD
+preplace inst DelayBuf_7 -pg 1 -lvl 4 -y 760 -defaultsOSRD
+preplace inst PreHOG1 -pg 1 -lvl 16 -y 290 -defaultsOSRD
+preplace inst CalcFAdd_15 -pg 1 -lvl 13 -y 2210 -defaultsOSRD
+preplace inst ReTiming4_0 -pg 1 -lvl 12 -y -280 -defaultsOSRD
+preplace inst ReTiming1_0 -pg 1 -lvl 6 -y -280 -defaultsOSRD
+preplace inst PreHOG2 -pg 1 -lvl 16 -y 750 -defaultsOSRD
+preplace inst CalcFAdd_16 -pg 1 -lvl 13 -y 2660 -defaultsOSRD
+preplace inst PreHOG3 -pg 1 -lvl 16 -y 1090 -defaultsOSRD
+preplace inst PreHOG -pg 1 -lvl 16 -y -50 -defaultsOSRD
+preplace inst CalcFAdd_17 -pg 1 -lvl 13 -y 3090 -defaultsOSRD
+preplace netloc ReTiming2_0_RESTART_V 1 8 2 NJ -300 N
+preplace netloc CalcFAdd_14_ap_return 1 13 3 NJ 1790 NJ 1790 3590
+preplace netloc PreHOG2_doutb 1 15 2 3690 930 NJ
+preplace netloc ReTiming3_0_ADRS 1 8 3 1510 400 NJ 400 1960
+preplace netloc CalcFAdd_5_ap_return 1 10 3 2000 1730 2220 1800 NJ
+preplace netloc CamRAM1_doutb 1 1 2 -170 760 NJ
+preplace netloc DelayBuf_3_Q 1 3 3 240 690 NJ 690 NJ
+preplace netloc ReTiming1_0_ADRS 1 1 6 -180 250 NJ 250 NJ 250 NJ 250 NJ 250 840
+preplace netloc CamRAM_doutb 1 1 2 -160 540 NJ
+preplace netloc PreHOG5_douta 1 12 4 2720 1710 NJ 1710 NJ 1710 3600
+preplace netloc ReTiming3_0_RESTART_V 1 10 2 NJ -300 N
+preplace netloc PreHOG5_doutb 1 15 2 3690 2050 NJ
+preplace netloc PreHOG1_douta 1 12 4 2720 380 NJ 280 NJ 280 NJ
+preplace netloc PreHOG1_doutb 1 15 2 3690 470 NJ
+preplace netloc ENA_1 1 0 1 NJ
+preplace netloc CamTiming_0_RESTART_V 1 1 5 NJ -300 NJ -300 NJ -300 NJ -300 NJ
+preplace netloc CalcDiff_0_ap_return 1 6 1 860
+preplace netloc DelayBuf_5_Q 1 5 1 600
+preplace netloc CalcFAdd_10_ap_return 1 13 3 NJ 260 NJ 260 NJ
+preplace netloc RST_N_1 1 0 15 -410 10 NJ 10 50 430 220 430 400 -170 NJ -170 NJ -170 NJ -170 NJ -170 NJ -160 NJ -160 NJ -160 2700 -170 NJ -170 3200
+preplace netloc DelayBuf_6_Q 1 3 1 N
+preplace netloc CLK_1 1 0 16 -420 20 NJ 520 NJ 590 NJ 410 NJ -150 600 -150 NJ -150 NJ -150 NJ -150 1730 -150 1980 -150 NJ -150 2710 -160 NJ -160 3210 -150 3560
+preplace netloc ReTiming1_0_RESTART_H 1 6 2 NJ -280 N
+preplace netloc ReTiming2_0_VALID 1 8 1 1480
+preplace netloc CamTiming_0_VALID 1 1 1 -200
+preplace netloc CalcFAdd_7_ap_return 1 10 3 2000 2710 2220 2670 NJ
+preplace netloc xlconstant_1_dout 1 5 9 NJ -160 NJ -160 1250 -160 NJ -180 1740 -170 NJ -170 2220 -170 NJ -270 NJ
+preplace netloc PreHOG6_douta 1 12 4 2720 2330 NJ 2330 NJ 2330 NJ
+preplace netloc CalcFAdd_8_ap_return 1 10 3 2000 3160 2220 3100 NJ
+preplace netloc PreHOG6_doutb 1 15 2 3690 2540 NJ
+preplace netloc PreHOG3_douta 1 12 4 2720 1100 NJ 1080 NJ 1080 NJ
+preplace netloc PreHOG3_doutb 1 15 2 3690 1290 NJ
+preplace netloc CalcFAdd_17_ap_return 1 13 3 NJ 3090 NJ 3090 3550
+preplace netloc PreHOG4_douta 1 12 4 2720 1530 NJ 1440 NJ 1440 NJ
+preplace netloc PreHOG4_doutb 1 15 2 3690 1650 NJ
+preplace netloc DelayBuf_4_Q 1 4 1 N
+preplace netloc CalcFAdd_16_ap_return 1 13 3 NJ 2660 NJ 2660 3550
+preplace netloc CalcFAdd_4_ap_return 1 10 3 2000 1380 2220 1460 N
+preplace netloc PreHOG8_douta 1 12 4 2720 3170 NJ 3120 NJ 3120 NJ
+preplace netloc CamRAM2_doutb 1 1 2 -160 800 NJ
+preplace netloc PreHOG8_doutb 1 15 2 3690 3330 NJ
+preplace netloc CalcFAdd_3_ap_return 1 10 3 2000 1110 2220 1030 N
+preplace netloc xlconstant_2_dout 1 5 1 NJ
+preplace netloc PreHOG9_doutb 1 8 3 1520 630 NJ 630 NJ
+preplace netloc CalcFAdd_6_ap_return 1 10 3 2000 2310 2220 2220 NJ
+preplace netloc CamTiming_0_ADRS 1 1 1 -190
+preplace netloc CalcFAdd_12_ap_return 1 13 3 NJ 1020 NJ 1020 3630
+preplace netloc PreHOG_douta 1 12 4 2720 60 NJ -60 NJ -60 NJ
+preplace netloc DelayAddr1_0_ADDR0 1 15 1 3690
+preplace netloc PreHOG_doutb 1 15 2 3690 120 NJ
+preplace netloc VSYNC_1 1 0 1 NJ
+preplace netloc ReTiming2_0_RESTART_H 1 8 2 NJ -280 N
+preplace netloc ReTiming1_0_RESTART_V 1 6 2 NJ -300 N
+preplace netloc DelayAddr1_0_ADDR1 1 15 1 3680
+preplace netloc CalcFAdd_13_ap_return 1 13 3 NJ 1420 NJ 1420 NJ
+preplace netloc DelayAddr1_0_ADDR2 1 15 1 3670
+preplace netloc ReTiming5_0_ADRS 1 14 3 3220 -160 NJ -290 N
+preplace netloc DelayBuf_7_Q 1 4 2 420 530 NJ
+preplace netloc DelayAddr1_0_ADDR3 1 15 1 3660
+preplace netloc PreHOG7_douta 1 12 4 2720 2740 NJ 2690 NJ 2690 NJ
+preplace netloc DelayBuf_1_Q 1 4 2 NJ 500 600
+preplace netloc DelayAddr1_0_ADDR4 1 15 1 3590
+preplace netloc PreHOG7_doutb 1 15 2 3690 2940 NJ
+preplace netloc DelayAddr1_0_ADDR5 1 15 1 3640
+preplace netloc CalcFAdd_9_ap_return 1 13 3 NJ -80 NJ -80 NJ
+preplace netloc DelayAddr1_0_ADDR6 1 15 1 3620
+preplace netloc ReTiming2_0_ADRS 1 8 1 1500
+preplace netloc CalcMag_0_ap_return 1 7 2 NJ 670 1470
+preplace netloc DelayAddr1_0_ADDR7 1 15 1 3610
+preplace netloc ReTiming3_0_RESTART_H 1 10 2 NJ -280 N
+preplace netloc CalcFAdd_0_ap_return 1 10 3 2000 -90 2220 -10 NJ
+preplace netloc DelayAddr1_0_ADDR8 1 15 1 3580
+preplace netloc CalcFAdd_1_ap_return 1 10 3 2000 250 2220 310 NJ
+preplace netloc xlconstant_0_dout 1 5 1 NJ
+preplace netloc HSYNC_1 1 0 1 NJ
+preplace netloc CamTiming_0_RESTART_H 1 1 5 NJ -280 NJ -280 NJ -280 NJ -280 NJ
+preplace netloc blk_mem_gen_0_doutb 1 6 1 870
+preplace netloc CalcFAdd_11_ap_return 1 13 3 NJ 680 NJ 680 3650
+preplace netloc DelayBuf_0_Q 1 3 1 N
+preplace netloc CalcGrad_0_atan2_table_address0 1 6 2 870 150 1240
+preplace netloc CalcFAdd_15_ap_return 1 13 3 NJ 2210 NJ 2210 3570
+preplace netloc CalcDiff_1_ap_return 1 6 1 840
+preplace netloc PreHOG2_douta 1 12 4 2720 760 NJ 740 NJ 740 NJ
+preplace netloc CalcFAdd_2_ap_return 1 10 3 2000 740 2220 690 N
+levelinfo -pg 1 -440 -320 -60 140 320 500 730 1050 1360 1620 1850 2110 2580 2860 3090 3440 3890 4080 -top -590 -bot 3350
+",
+}
+0

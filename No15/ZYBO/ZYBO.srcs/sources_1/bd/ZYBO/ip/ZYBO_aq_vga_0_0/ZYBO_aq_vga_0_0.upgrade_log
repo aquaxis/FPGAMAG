@@ -1,0 +1,49 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Sat Dec  5 22:38:37 2015
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_vga_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of ZYBO_aq_vga_0_0 (user.org:user:aq_vga:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (lin64) Build 1412921 Wed Nov 18 09:44:32 MST 2015
+| Date         : Sat Dec  5 22:38:26 2015
+| Host         : saturn running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ZYBO_aq_vga_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of ZYBO_aq_vga_0_0 (user.org:user:aq_vga:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'ZYBO_aq_vga_0_0'. These changes may impact your design.
+
+
+-upgraded port 'DOUT_B' width 8 differs from original width 5
+-upgraded port 'DOUT_G' width 8 differs from original width 6
+-upgraded port 'DOUT_R' width 8 differs from original width 5
+

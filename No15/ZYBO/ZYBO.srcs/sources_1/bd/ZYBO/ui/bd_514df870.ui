@@ -1,0 +1,35 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port ACLK -pg 1 -y 60 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 140 -defaultsOSRD
+preplace portBus LOCAL_WDATA -pg 1 -y 210 -defaultsOSRD
+preplace portBus Dout -pg 1 -y 160 -defaultsOSRD
+preplace portBus ARESETN -pg 1 -y 40 -defaultsOSRD
+preplace portBus Res -pg 1 -y 270 -defaultsOSRD
+preplace portBus LOCAL_RDATA -pg 1 -y 300 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 4 -y 160 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 350 -defaultsOSRD
+preplace inst DelayBuf_0 -pg 1 -lvl 1 -y 60 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 2 -y 340 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 3 -y 130 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 4 -y 270 -defaultsOSRD
+preplace inst aq_axi_lite_slave_0 -pg 1 -lvl 2 -y 180 -defaultsOSRD
+preplace netloc Conn1 1 0 2 NJ 140 NJ
+preplace netloc ACLK_1 1 0 2 20 180 NJ
+preplace netloc aq_axi_lite_slave_0_LOCAL_ADDR 1 2 2 530J 180 770J
+preplace netloc xlconcat_1_dout 1 1 2 200 280 540
+preplace netloc aq_axi_lite_slave_0_LOCAL_WDATA 1 2 4 NJ 210 NJ 210 NJ 210 NJ
+preplace netloc ARESETN_1 1 0 2 30 160 NJ
+preplace netloc DelayBuf_0_Q 1 1 1 210
+preplace netloc xlconstant_0_dout 1 1 1 NJ
+preplace netloc aq_axi_lite_slave_0_LOCAL_CS 1 0 4 40 130 200J 80 530 80 780
+preplace netloc LOCAL_RDATA_1 1 0 2 NJ 300 210J
+preplace netloc aq_axi_lite_slave_0_LOCAL_RNW 1 2 1 540J
+preplace netloc util_vector_logic_2_Res 1 4 2 NJ 270 NJ
+preplace netloc util_vector_logic_1_Res 1 3 1 760
+preplace netloc xlslice_0_Dout 1 4 2 NJ 160 NJ
+levelinfo -pg 1 0 120 370 650 890 1030 1070 -top 0 -bot 390
+",
+}
+0

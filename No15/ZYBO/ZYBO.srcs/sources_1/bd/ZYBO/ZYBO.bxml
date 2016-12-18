@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="33">
+  <CompositeFile CompositeFileTopName="ZYBO" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1482040311"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1482040311"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1482040311"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip/ZYBO_proc_sys_reset_0_1/ZYBO_proc_sys_reset_0_1.xci" Type="IP">
+        <Instance HierarchyPath="ARM/proc_sys_reset_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_processing_system7_0_1/ZYBO_processing_system7_0_1.xci" Type="IP">
+        <Instance HierarchyPath="ARM/processing_system7_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconcat_0_1/ZYBO_xlconcat_0_1.xci" Type="IP">
+        <Instance HierarchyPath="ARM/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_axi_protocol_converter_0_1/ZYBO_axi_protocol_converter_0_1.xci" Type="IP">
+        <Instance HierarchyPath="ARM/axi_protocol_converter_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_axi_protocol_converter_1_0/ZYBO_axi_protocol_converter_1_0.xci" Type="IP">
+        <Instance HierarchyPath="ARM/axi_protocol_converter_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_proc_sys_reset_1_0/ZYBO_proc_sys_reset_1_0.xci" Type="IP">
+        <Instance HierarchyPath="ARM/proc_sys_reset_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_axi_protocol_converter_1_1/ZYBO_axi_protocol_converter_1_1.xci" Type="IP">
+        <Instance HierarchyPath="ARM/axi_protocol_converter_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CalcSumMag_0_0/ZYBO_CalcSumMag_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/CalcSumMag"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CalcFDiv_0_0/ZYBO_CalcFDiv_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/CalcFDiv"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelaySel1_0_0/ZYBO_DelaySel1_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/DelaySel1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CalcComp_0_0/ZYBO_CalcComp_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/CalcComp"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayData1_0_0/ZYBO_DelayData1_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/Delay_95t"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_BitCreate_0_0/ZYBO_BitCreate_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/BitCreate_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_blk_mem_gen_0_6/ZYBO_blk_mem_gen_0_6.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CamBuffer/CamRAM0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CamRAM_0/ZYBO_CamRAM_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CamBuffer/CamRAM1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CamRAM_1/ZYBO_CamRAM_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CamBuffer/CamRAM2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CalcDiff_0_0/ZYBO_CalcDiff_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/CalcDiff_X"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_0_0/ZYBO_DelayBuf_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/DelayBuf_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_1_0/ZYBO_DelayBuf_1_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/DelayBuf_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_0_1/ZYBO_DelayBuf_0_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/DelayBuf_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_1_1/ZYBO_DelayBuf_1_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/DelayBuf_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_2_1/ZYBO_DelayBuf_2_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/DelayBuf_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_0_2/ZYBO_DelayBuf_0_2.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/DelayBuf_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_1_2/ZYBO_DelayBuf_1_2.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/DelayBuf_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CalcDiff_1_0/ZYBO_CalcDiff_1_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcDelta/CalcDiff_Y"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CalcMag_0_0/ZYBO_CalcMag_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcGradMag/CalcMag"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CalcGrad_0_0/ZYBO_CalcGrad_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcGradMag/CalcGrad"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_blk_mem_gen_0_0/ZYBO_blk_mem_gen_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/atan2_table"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_atan2_table_0/ZYBO_atan2_table_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad0/PreHOG_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_0/ZYBO_PreHOG_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad1/PreHOG_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_1/ZYBO_PreHOG_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad2/PreHOG_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_2/ZYBO_PreHOG_2.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad3/PreHOG_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_3/ZYBO_PreHOG_3.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad4/PreHOG_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_4/ZYBO_PreHOG_4.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad5/PreHOG_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_5/ZYBO_PreHOG_5.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad6/PreHOG_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_6/ZYBO_PreHOG_6.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad7/PreHOG_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_7/ZYBO_PreHOG_7.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad8/PreHOG_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_PreHOG_8/ZYBO_PreHOG_8.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcGradMag/RamMag"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_axi_protocol_converter_0_0/ZYBO_axi_protocol_converter_0_0.xci" Type="IP">
+        <Instance HierarchyPath="ARM/axi_protocol_converter_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_Delay25RAM_0/ZYBO_Delay25RAM_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcGradMag/RamGrad"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_util_vector_logic_0_0/ZYBO_util_vector_logic_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/util_vector_logic_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_util_vector_logic_0_1/ZYBO_util_vector_logic_0_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/RST"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_ReTiming6_0_0/ZYBO_ReTiming6_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/ReTiming6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_0_3/ZYBO_DelayBuf_0_3.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/DelayBuf"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_0_1/ZYBO_xlconstant_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad0/Cinst_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_1/ZYBO_xlconstant_0_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad1/Const_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_4/ZYBO_xlconstant_0_4.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad2/Const_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_5/ZYBO_xlconstant_0_5.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad3/Const_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_6/ZYBO_xlconstant_0_6.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad4/Const_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_7/ZYBO_xlconstant_0_7.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad5/Const_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_8/ZYBO_xlconstant_0_8.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad6/Const_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_9/ZYBO_xlconstant_0_9.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad7/Const_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_10/ZYBO_xlconstant_0_10.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad8/Const_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_RAM_HOG_0/ZYBO_RAM_HOG_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/RAM_HOG1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlslice_0_6/ZYBO_xlslice_0_6.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/Result/xlslice_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_util_vector_logic_1_6/ZYBO_util_vector_logic_1_6.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/Result/util_vector_logic_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_util_vector_logic_2_6/ZYBO_util_vector_logic_2_6.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/Result/util_vector_logic_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayBuf_0_10/ZYBO_DelayBuf_0_10.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/Result/DelayBuf_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_aq_axi_lite_slave_0_7/ZYBO_aq_axi_lite_slave_0_7.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/Result/aq_axi_lite_slave_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_smartconnect_0_0/ZYBO_smartconnect_0_0.xci" Type="IP">
+        <Instance HierarchyPath="smartconnect_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_0_0/ZYBO_HOG_CreateCell_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad8/HOG_CreateCell_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_8_0/ZYBO_HOG_CreateCell_8_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad7/HOG_CreateCell_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_0_1/ZYBO_HOG_CreateCell_0_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad0/HOG_CreateCell_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_1_0/ZYBO_HOG_CreateCell_1_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad1/HOG_CreateCell_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_2_0/ZYBO_HOG_CreateCell_2_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad2/HOG_CreateCell_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_3_0/ZYBO_HOG_CreateCell_3_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad3/HOG_CreateCell_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_4_0/ZYBO_HOG_CreateCell_4_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad4/HOG_CreateCell_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_5_0/ZYBO_HOG_CreateCell_5_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad5/HOG_CreateCell_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_CreateCell_6_0/ZYBO_HOG_CreateCell_6_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/Grad6/HOG_CreateCell_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_HOG_Timing_0_0/ZYBO_HOG_Timing_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/HOG_Timing_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_aq_axi_lite_slave_0_0_1/ZYBO_aq_axi_lite_slave_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CamDummy/aq_axi_lite_slave"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CamDummy_0_0/ZYBO_CamDummy_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CamDummy/CamDummy"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_blk_mem_gen_0_1/ZYBO_blk_mem_gen_0_1.xci" Type="IP">
+        <Instance HierarchyPath="CamDummy/blk_mem_gen_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DataSel4_0_0/ZYBO_DataSel4_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CamBuffer/DataSel4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconcat_1_1/ZYBO_xlconcat_1_1.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/Result/xlconcat_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_11/ZYBO_xlconstant_0_11.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/Result/xlconstant_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DelayData3_0_0/ZYBO_DelayData3_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/DelayData3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_CalcSumMag2_0_0/ZYBO_CalcSumMag2_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/CalcSumMag2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_DataBuf_0_0/ZYBO_DataBuf_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcBlock/DataBuf_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_2/ZYBO_xlconstant_0_2.xci" Type="IP">
+        <Instance HierarchyPath="xlconstant_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconcat_0_0_1/ZYBO_xlconcat_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcGradMag/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip/ZYBO_xlconstant_0_3/ZYBO_xlconstant_0_3.xci" Type="IP">
+        <Instance HierarchyPath="CalcHOG/CalcGradMag/xlconstant_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

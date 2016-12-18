@@ -1,0 +1,41 @@
+WORKFLOW_OPERATION simulation,dialog;
+
+DEFINE_MEMORY_TYPE CalcHOG_atan2_table_MEM_DEVICE [0x00010000] 32;
+DEFINE_MEMORY_TYPE Detect_list_h_MEM_DEVICE [0x00001000] 32;
+DEFINE_MEMORY_TYPE Detect_list_w_MEM_DEVICE [0x00001000] 32;
+DEFINE_MEMORY_TYPE Detect_list_x_MEM_DEVICE [0x00001000] 32;
+DEFINE_MEMORY_TYPE Detect_list_y_MEM_DEVICE [0x00001000] 32;
+DEFINE_MEMORY_TYPE Detect_result_MEM_DEVICE [0x00010000] 32;
+
+ADDRESS_MAP ARM_processing_system7_0 ARM 100 ARM/processing_system7_0
+   ADDRESS_SPACE CalcHOG_atan2_table_ADDR_SPACE CalcHOG_atan2_table_MEM_DEVICE  [0x40000000:0x4000FFFF] CalcHOG/ATAN2_TABLE_1
+     BUS_BLOCK
+      CalcHOG_atan2_table_BUS_BLK [31:0] INPUT = "ZYBO_blk_mem_gen_0_0.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+   ADDRESS_SPACE Detect_list_h_ADDR_SPACE Detect_list_h_MEM_DEVICE  [0x42030000:0x42030FFF] Detect/axi_bram_ctrl_list_h
+     BUS_BLOCK
+      Detect_list_h_BUS_BLK [31:0] INPUT = "ZYBO_blk_mem_gen_1_0.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+   ADDRESS_SPACE Detect_list_w_ADDR_SPACE Detect_list_w_MEM_DEVICE  [0x42020000:0x42020FFF] Detect/axi_bram_ctrl_list_w
+     BUS_BLOCK
+      Detect_list_w_BUS_BLK [31:0] INPUT = "ZYBO_blk_mem_gen_1_1.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+   ADDRESS_SPACE Detect_list_x_ADDR_SPACE Detect_list_x_MEM_DEVICE  [0x42000000:0x42000FFF] Detect/axi_bram_ctrl_list_x
+     BUS_BLOCK
+      Detect_list_x_BUS_BLK [31:0] INPUT = "ZYBO_blk_mem_gen_0_2.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+   ADDRESS_SPACE Detect_list_y_ADDR_SPACE Detect_list_y_MEM_DEVICE  [0x42010000:0x42010FFF] Detect/axi_bram_ctrl_list_y
+     BUS_BLOCK
+      Detect_list_y_BUS_BLK [31:0] INPUT = "ZYBO_blk_mem_gen_0_3.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+   ADDRESS_SPACE Detect_result_ADDR_SPACE Detect_result_MEM_DEVICE  [0x43000000:0x4300FFFF] Detect/axi_bram_ctrl_rslt
+     BUS_BLOCK
+      Detect_result_BUS_BLK [31:0] INPUT = "ZYBO_blk_mem_gen_0_4.mem";
+     END_BUS_BLOCK;
+   END_ADDRESS_SPACE;
+END_ADDRESS_MAP;
